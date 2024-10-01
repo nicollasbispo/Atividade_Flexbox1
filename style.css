@@ -23,8 +23,8 @@ h1 {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-direction: column; 
+    align-items: flex-start;
+    flex-direction:  row; 
   
 }
 
@@ -41,20 +41,21 @@ h1 {
 
 
 .cor1 {
-    align-self: flex-start;
     background-color: #ED145B;
   
 }
 
 .cor2 {
-    align-self: center;
+    order: 2;
+    align-self:flex-end;
     background-color: #63B1BC; 
    
 }
 
 
 .cor3 {
-    align-self: flex-end;
+    order: 1;
+    align-self: center;
     background-color: #EFB661;
   
 }
